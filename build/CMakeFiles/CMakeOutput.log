@@ -600,3 +600,51 @@ int main() {
 #endif
 }
 
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeeded with the following output:
+Change Dir: /home/sehee/Workspace/FastMassSpring/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4025e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4025e.dir/build.make CMakeFiles/cmTC_4025e.dir/build
+make[1]: Entering directory '/home/sehee/Workspace/FastMassSpring/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4025e.dir/src.c.o
+/usr/bin/cc    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_4025e.dir/src.c.o   -c /home/sehee/Workspace/FastMassSpring/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4025e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4025e.dir/link.txt --verbose=1
+/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTC_4025e.dir/src.c.o  -o cmTC_4025e -rdynamic 
+make[1]: Leaving directory '/home/sehee/Workspace/FastMassSpring/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeeded with the following output:
+Change Dir: /home/sehee/Workspace/FastMassSpring/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48ffe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48ffe.dir/build.make CMakeFiles/cmTC_48ffe.dir/build
+make[1]: Entering directory '/home/sehee/Workspace/FastMassSpring/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48ffe.dir/src.cxx.o
+/usr/bin/c++     -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_48ffe.dir/src.cxx.o -c /home/sehee/Workspace/FastMassSpring/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_48ffe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48ffe.dir/link.txt --verbose=1
+/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTC_48ffe.dir/src.cxx.o  -o cmTC_48ffe -rdynamic 
+make[1]: Leaving directory '/home/sehee/Workspace/FastMassSpring/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
