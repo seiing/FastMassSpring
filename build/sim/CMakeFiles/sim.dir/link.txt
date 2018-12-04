@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../sim/libsim.a  CMakeFiles/sim.dir/Cloth.cpp.o
+/usr/bin/ranlib ../../sim/libsim.a

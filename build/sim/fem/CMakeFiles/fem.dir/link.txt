@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../sim/fem/libfem.a  CMakeFiles/fem.dir/World.cpp.o CMakeFiles/fem.dir/Constraint/AttachmentConstraint.cpp.o CMakeFiles/fem.dir/Constraint/Tensor.cpp.o CMakeFiles/fem.dir/Constraint/SpringConstraint.cpp.o CMakeFiles/fem.dir/Constraint/Constraint.cpp.o CMakeFiles/fem.dir/Mesh/Mesh.cpp.o CMakeFiles/fem.dir/Mesh/GridMesh.cpp.o
+/usr/bin/ranlib ../../../sim/fem/libfem.a
