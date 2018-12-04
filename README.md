@@ -5,6 +5,7 @@ C++ implentation of _Tiantian Liu, Adam W. Bargteil, James F. O'Brien, Ladislav 
 ## How to build and run
 ```
 mkdir build
+cd build
 ccmake ..
 CMAKE BUILD TYPE = Release
 make -j4
