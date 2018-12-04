@@ -1,0 +1,5 @@
+*.a
+*.sublime-*
+build
+.tags*
+.so
