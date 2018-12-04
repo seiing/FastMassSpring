@@ -6,8 +6,7 @@ C++ implentation of _Tiantian Liu, Adam W. Bargteil, James F. O'Brien, Ladislav 
 ```
 mkdir build
 cd build
-ccmake ..
-CMAKE BUILD TYPE = Release
+cmake ..
 make -j4
 ```
 
